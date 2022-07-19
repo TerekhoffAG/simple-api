@@ -1,13 +1,27 @@
 {
   "name": "simple-api",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A simple REST API using Node.js, Express, TypeORM, MySQL and TypeScript.",
   "main": "dist/index.js",
   "author": {
     "name": "Terekhov Sasha",
     "email": "terekhoffag@gmail.com"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerekhoffAG/simple-api"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "node",
+    "express",
+    "typeorm",
+    "mysql",
+    "app",
+    "api",
+    "rest"
+  ],
   "license": "ISC",
   "scripts": {
     "prebuild": "rimraf dist",

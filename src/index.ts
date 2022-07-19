@@ -1,5 +1,5 @@
 function startApp(): void{
-    console.log("Application is up and running");
+    console.log("App is up and running...");
 }
 
 startApp();
