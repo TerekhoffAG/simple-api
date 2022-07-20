@@ -12,8 +12,10 @@ This is a simple REST API using Node.js, Express, TypeORM, MySQL and TypeScript.
 ```
 .
 ├── src
+│   ├── config
+│   │   ├── config.ts
+│   │   └──
 │   ├── index.ts
-│   ├──
 │   └──
 ├── .gitignore
 ├── package.json
