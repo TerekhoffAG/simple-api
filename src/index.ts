@@ -1,5 +1,5 @@
-function startApp(): void{
-    console.log("App is up and running...");
-}
+import { App } from "./app";
 
-startApp();
+const app = new App([]);
+
+app.listen();

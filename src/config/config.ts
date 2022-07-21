@@ -1,11 +1,6 @@
-import * as dotenv from 'dotenv';
+import { config } from "dotenv";
 import { env } from 'process';
 
-dotenv.config();
+config();
 
-export default {
-    appName: env.APP_NAME,
-    appEnv: env.APP_ENV,
-    appHost: env.APP_HOST,
-    appPort: env.APP_PORT,
-}
+export const { APP_NAME, APP_ENV, APP_HOST, APP_PORT } = env;
