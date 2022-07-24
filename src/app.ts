@@ -1,5 +1,5 @@
 import express from "express";
-import { APP_PORT } from "./config/config";
+import { APP_PORT } from "./config/app.config";
 
 export class App {
     public app: express.Application;
